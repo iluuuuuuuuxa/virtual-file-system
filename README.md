@@ -17,8 +17,8 @@ This project implements a user-space virtual file system (VFS) driver in C++. It
 ## How to Build and Run
 The project includes an embedded test suite (`simple_test.inc`) and can be compiled and executed directly.
 
-* Compile the source code with standard strict flags: g++ -std=c++20 -Wall -pedantic main.cpp -o vfs_test
-* Run the compiled test suite: ./vfs_test
+* Compile the source code with standard strict flags: `g++ -std=c++20 -Wall -pedantic main.cpp -o vfs_test`
+* Run the compiled test suite: `./vfs_test`
 
 ## Disclaimer
 *This project was developed as part of the Operating Systems course at the Faculty of Information Technology, CTU in Prague. The code demonstrates low-level system optimization and storage management.*
